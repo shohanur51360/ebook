@@ -1,0 +1,853 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/**********************************************************
+	*** Global css code css code start ***
+**********************************************************/
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/**********************************************************
+	*** Global css code css code end ***
+**********************************************************/
+
+/**********************************************************
+	*** Header-section css code css code start ***
+**********************************************************/
+.header-section{
+	width: 100%;
+	background-image: url(../images/1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 3997px;
+}
+.header-one{
+	width: 100%;
+	margin:15px 0px 0px 0px;
+}
+.header-one img{
+	margin:0px 0px 0px 0px;
+}
+.header-two{
+	width: 100%;
+	margin:5px 0px 0px 0px;
+}
+#custom-search-form {
+    margin:0;
+    margin-top: 5px;
+    padding: 0;
+}
+ 
+#custom-search-form .search-query {
+    padding-right: 70px;
+    padding-right: 4px \9;
+    padding-left: 38px;
+    /* padding: 8px 0px; */
+    padding-left: 4px \9;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 31px;
+    height: 40px;
+    background: transparent;
+    color: #f0f0f2;
+    border: 2px solid#8e819e;
+}
+ 
+#custom-search-form button {
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -276px;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #f0f0f2;
+}
+.search-query:focus + button {
+    z-index: 3;   
+}
+.header-three{
+	width: 100%;
+	margin:15px 0px 0px 110px;
+}
+.header-three img{
+
+}
+.header-bottom {
+    width: 100%;
+    margin: 16px 0px 0px 0px;
+}
+.header-bottom a.nav-link.active {
+    color: #eff0f2;
+    background-image: url(../images/3.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0px 0px 0px 189px;
+}
+.header-bottom .nav-link {
+    color: #bbafca;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.header-bottom .nav-link:hover{
+	color: #eff0f2;
+    background-image: url(../images/3.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+/**********************************************************
+	*** Header-section css code css code end***
+**********************************************************/
+
+/**********************************************************
+    *** Banner-section css code css code start***
+**********************************************************/
+.banner-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.banner-inner {
+    width: 100%;
+    margin: 157px 0px 0px 180px;
+}
+.banner-section h4 {
+    color: #6fc5be;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.banner-section h1 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.banner-section h5 {
+    color: #867b99;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 46px;
+}
+.btn-1{
+    background: linear-gradient( to left, #1475a6 30%, #07b89f);
+    -webkit-text-fill-color: #eef9f8;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+.btn-1:hover{
+    background: transparent;
+    border: 1px solid#1378a6;
+    color: #07ba9e;
+    transition: 0.2s;
+    padding: 10px 25px;
+}
+/**********************************************************
+    *** Banner-section css code css code end***
+**********************************************************/
+
+/**********************************************************
+    *** Easy-section css code css code start***
+**********************************************************/
+.easy-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.easy-top {
+    width: 100%;
+    margin: 210px 0px 0px 0px;
+}
+.easy-top h1 {
+    color: #ffffff;
+    margin: -5px 0px 5px 0px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.easy-top h5 {
+    color: #5d516b;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.easy-bottom {
+    width: 100%;
+    margin: 218px 0px 0px 0px;
+}
+.ebook{
+    width: 100%;
+    margin: 0px 0px 0px 105px;
+}
+.ebook h2 {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px 0px 5px 0px;
+}
+.ebook h2:hover{
+    color: #12608e;
+}
+.ebook h5{
+    color: #5d516b;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.purchase{
+    width: 100%;
+    margin: 0px 0px 0px 51px;
+}
+.purchase h2{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px 0px 5px 0px;
+}
+.purchase h2:hover{
+    color: #12608e;
+}
+.purchase h5{
+    color: #5d516b;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 65px 0px;
+}
+.select{
+    width: 100%;
+    margin: 0px 0px 0px -28px;
+}
+.select h2{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px 0px 5px 0px;
+}
+.select h2:hover{
+    color: #12608e;
+}
+.select h5{
+    color: #5d516b;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.start{
+    width: 100%;
+    margin: 0px 0px 0px -101px;
+}
+.start h2{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0px 0px 5px 0px;
+}
+.start h2:hover{
+    color: #12608e;
+}
+.start h5{
+    color: #5d516b;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.btn-2{
+    background: linear-gradient( to left, #1475a6 30%, #07b89f);
+    -webkit-text-fill-color: #eef9f8;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.btn-2:hover{
+    background: transparent;
+    border: 1px solid#1378a6;
+    color: #07ba9e;
+    transition: 0.3s;
+    padding: 10px 25px;
+}
+/**********************************************************
+    *** Easy-section css code css code end***
+**********************************************************/
+
+/**********************************************************
+    *** Preview-section css code css code start***
+**********************************************************/
+.preiew-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.preview-top {
+    width: 100%;
+    margin: 95px 0px 0px 0px;
+}
+.preview-top h1 {
+    color: #ffffff;
+    margin: 0px 0px 8px 0px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.preview-top h5 {
+    color: #867b99;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.preview-bottom{
+    width:100%;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+}
+.preview-left {
+    width: 100%;
+    margin: 0px 0px 0px 155px;
+}
+.preview-left p {
+    color: #5f536d;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 112px 0px 5px 0px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+.preview-left h3 {
+    color: #b9acc9;
+    margin: 8px 0px 8px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.preview-left h5{
+    color: #5f536d;
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+}
+.preview-right {
+    width: 100%;
+    margin: -400px 0px 0px 756px;
+}
+.print {
+    width: 100%;
+    margin: 0px 0px 77px 0px;
+}
+.print h2{
+    color: #ffffff;
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.print h2:hover{
+    color: #12608e;
+}
+.print p {
+    color: #9f92b0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.read {
+    width: 100%;
+    margin: 0px 0px 74px 0px;
+}
+.read h2{
+    color: #ffffff;
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.read h2:hover{
+    color: #1b8bcc;
+}
+.read p{
+    color: #9f92b0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.well{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.well h2{
+    color: #ffffff;
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.well h2:hover{
+    color: #12608e;
+}
+.well p{
+    color: #9f92b0;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+/**********************************************************
+    *** Preview-section css code css code end***
+**********************************************************/
+
+/**********************************************************
+    *** Client-section css code css code start***
+**********************************************************/
+.client-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-top {
+    width: 100%;
+    margin: 127px 0px 31px 0px;
+    text-align: center;
+}
+.client-top h1 {
+    color: #ffffff;
+    margin: 0px 0px 8px 0px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.client-top h5 {
+    color: #867b99;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+
+.client-bottom{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-bottom .card {
+    background-color: #1f254e;
+    border: 1px solid #1f254e;
+    border-radius: .25rem;
+}
+.client-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-bottom .client-1 .card img {
+    margin: 19px 0px 7px 90px;
+    width: 100px;
+}
+.client-bottom .client-1 .card h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.client-bottom .client-1 .card p {
+    color: #065788;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px -5px 0px;
+}
+.card-body{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-bottom .client-1 .card-body h5 {
+    color: #847893;
+    margin: -7px 0px -12px 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.client-bottom .client-1 .card-body img {
+    width: 100%;
+    margin-left: -1px;
+}
+.client-2{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-bottom .client-2 .card img {
+    margin: 19px 0px 7px 90px;
+    width: 100px;
+}
+.client-bottom .client-2 .card h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.client-bottom .client-2 .card p {
+    color: #065788;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px -5px 0px;
+}
+.card-body{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-bottom .client-2 .card-body h5 {
+    color: #847893;
+    margin: -7px 0px -12px 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.client-bottom .client-2 .card-body img {
+    width: 100%;
+    margin-left: -1px;
+}
+.client-3{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-bottom .client-3 .card img {
+    margin: 19px 0px 7px 90px;
+    width: 100px;
+}
+.client-bottom .client-3 .card h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.client-bottom .client-3 .card p {
+    color: #065788;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 0px -5px 0px;
+}
+.card-body{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.client-bottom .client-3 .card-body h5 {
+    color: #847893;
+    margin: -7px 0px -12px 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.client-bottom .client-3 .card-body img {
+    width: 100%;
+    margin-left: -1px;
+}
+/**********************************************************
+    *** Client-section css code css code end***
+**********************************************************/
+
+/**********************************************************
+    *** Sold-section css code css code start***
+**********************************************************/
+.sold-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.sold-inner {
+    width: 100%;
+    margin: 145px 0px 0px 0px;
+    text-align: center;
+}
+.number {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 106px;
+    font-family: lato;
+    font-weight: 700;
+}
+p.counter-wrapper {
+    color: #fff!important;
+    text-align: center!important;
+    font-size: 70px!important;
+    font-family: lato!important;
+    font-weight: 700!important;
+}
+.sold-inner {
+    width: 100%;
+    margin: 145px 0px 0px 0px;
+    text-align: center;
+}
+.sold-inner p {
+    margin: 52px 0px 19px 0px;
+    color: #d1dce9;
+    font-size: 19px;
+    font-weight: 500;
+}
+.sold-inner .icon{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.sold-inner .icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.sold-inner .icon ul li a i {
+    margin: 0px 0px 0px 7px;
+    color: #266692;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid#ffffffff;
+    font-size: 15px;
+    border-radius: 19px;
+    font-weight: 600;
+}
+.sold-inner .icon ul li a i:hover{
+    color: #ffffff;
+    background: #266692;
+    border: 1px solid#ffffff;
+    transition: 0.8s;
+}
+/**********************************************************
+    *** Sold-section css code css code end***
+**********************************************************/
+/**********************************************************
+    *** Book-section css code css code start***
+**********************************************************/
+.book-section{
+    width: 100%;
+    margin: 162px 0px 0px 0px;
+    text-align: center;
+}
+.book-inner {
+    width: 100%;
+    margin: 187px 0px 0px 0px;
+}
+.book-inner h2 {
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.book-inner p {
+    color: #867b98;
+    margin: 10px 0px 10px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.book-inner h5 {
+    color: #ffffff;
+    margin: 0px 0px 28px 0px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.btn-3{
+    background: linear-gradient( to left, #1475a6 30%, #07b89f);
+    -webkit-text-fill-color: #eef9f8;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.btn-3:hover{
+    background: transparent;
+    border: 1px solid#1378a6;
+    color: #07ba9e;
+    transition: 0.3s;
+    padding: 10px 30px;
+}
+/**********************************************************
+    *** Book-section css code css code end***
+**********************************************************/
+
+/**********************************************************
+    *** Contact-section css code css code start***
+**********************************************************/
+.contact-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.contact-top {
+    width: 100%;
+    margin: 211px 0px 0px 0px;
+    text-align: center;
+}
+.contact-top h1 {
+    color: #ffffff;
+    margin: 0px 0px 38px 0px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.contact-bottom{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.contact-left{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+}
+.contact-left h4 {
+    color: #2a5984;
+    margin: 0px 0px 15px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact-left u{
+    color: #ffffff;
+    margin: 0px 0px 15px 0px;
+}
+.contact-left h5{
+    color: #2a5984;
+    margin: 0px 0px 20px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact-left h3{
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact-left p{
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact-right{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.contact-right input.form-control {
+    width: 70%;
+    background: #161235;
+    margin-bottom: 15px;
+    border: 1px solid#4a4765;
+    color: #fff;
+}
+.contact-right textarea.form-control {
+    width: 70%;
+    background: #161235;
+    border: 1px solid#4a4765;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.btn-4{
+    background: linear-gradient( to left, #1475a6 30%, #07b89f);
+    -webkit-text-fill-color: #eef9f8;
+    padding: 10px 25px;
+    border: 0px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.btn-4:hover{
+    background: transparent;
+    border: 1px solid#1378a6;
+    color: #07ba9e;
+    transition: 0.3s;
+    padding: 10px 30px;
+}
+/**********************************************************
+    *** Contact-section css code css code end***
+**********************************************************/
+
+/**********************************************************
+    *** Footer-section css code css code start***
+**********************************************************/
+.footer-section{
+    width: 100%;
+    margin: 85px 0px 0px 0px;
+}
+.footer-1 {
+    width: 100%;
+    margin: -17px 0px 0px 0px;
+}
+.footer-1 img {
+    margin: 0px 0px 0px 0px;
+    width: 130px;
+}
+.footer-2 {
+    width: 100%;
+    margin: -25px 0px 0px 0px;
+}
+.footer-2 a.nav-link.active {
+    color: #3a324d;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 0px -149px;
+}
+.footer-2 a.nav-link.active:hover{
+    color: #fff;
+}
+.footer-2 .nav-link:hover{
+    color: #fff;
+}
+.footer-2 .nav-link {
+   color: #3a324d;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+}
+.footer-3 {
+    width: 100%;
+    margin: -23px 0px 0px 115px;
+}
+.social-icon{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.footer-3 .social-icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-3 .social-icon ul li a i {
+    margin: 0px 0px 0px 7px;
+    color: #717181;
+    background: #ffffff;
+    padding: 10px 14px;
+    border: 1px solid#ffffffff;
+    font-size: 15px;
+    border-radius: 19px;
+    font-weight: 600;
+}
+.footer-3 .social-icon ul li a i:hover{
+    color: #ffffff;
+    background: #266692;
+    border: 1px solid#266692;
+    transition: 0.8s;
+}
+.footer-bottom{
+    width: 100%;
+    margin: 9px 0px 0px 0px;
+}
+.footer-bottom h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+/**********************************************************
+    *** Footer-section css code css code end***
+**********************************************************/

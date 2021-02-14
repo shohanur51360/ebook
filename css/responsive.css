@@ -1,0 +1,42 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*css code start*/
+  .header-one img {
+    margin: 0px 0px 5px 0px!important;
+}
+.header-three {
+    margin: -112px 0px 0px 0px!important;
+    text-align: right!important;
+}
+
+
+
+   /*css code end*/ 
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+
+
